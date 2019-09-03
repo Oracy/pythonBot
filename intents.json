@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "patterns": ["Olá", "Como você está?", "Tem alguém aí??", "Oi", "Bom dia", "Dae"],
+         "responses": ["Olá!", "Bom te ver por aqui!", "Oi, como posso te ajudar?"],
          "context_set": ""
         },
         {"tag": "goodbye",

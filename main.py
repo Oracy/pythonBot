@@ -108,8 +108,20 @@ def chat():
     for tg in data["intents"]:
       if tg['tag'] == tag:
         responses = tg['responses']
+        find = True
+        break
+      else:
+        responses = inp
+        find = False
 
-    print(random.choice(responses))
+    if find:
+      print(random.choice(responses))
+    else:
+      print("""
+Desculpa, não entendi o que você quis dizer com:
+{0}
+Por favor, seja mais claro
+            """.format(inp))
 
 
 chat()
